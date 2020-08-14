@@ -4,4 +4,13 @@
 
 
 public class CalculatorModel {
+    private int calculateValue;
+
+    public void addTwoNumber(int firstNumber, int secondNumber){
+        calculateValue=firstNumber+secondNumber;
+    }
+
+    public int getCalculateValue(){
+        return calculateValue;
+    }
 }
