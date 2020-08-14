@@ -1,3 +1,5 @@
+package Pacage1_FirstLevel;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -23,7 +25,7 @@ public class CalculatorController {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            int firstNumber, secondNumber = 0;
+            int firstNumber=0, secondNumber = 0;
             try {
                 firstNumber = theView.getFirstNumber();
                 secondNumber = theView.getSecondNumber();
